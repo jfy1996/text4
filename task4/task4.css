@@ -1,0 +1,84 @@
+html{
+    background-color: #eef0f4;
+}
+body{margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 0.625rem;
+    }
+
+header {
+    background-color: #68CDD5;
+    position: fixed;
+    width: 100%;
+    top:0;
+    height: 4em;
+    line-height: 4em;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    }
+.close {
+    position: absolute;
+    left:1em;
+    color: white;
+    font-size: 1.5em;}
+
+.load{
+    margin: 0 auto;
+    color: white;
+    font-size: 2em;}
+
+.register{
+    position: absolute;
+    right: 1em;
+    text-align: right;
+    color: white;
+    font-size: 1.5em;}
+main{margin-top: 5em;
+}
+main .box{
+    background-color: white;
+    margin-bottom: 1em;
+    padding: 2em 0;
+    display: flex;
+}
+main .icon-phone{
+    height: 2.5em;
+    border-right: 0.1em solid gray;
+    padding: 0 2em;
+}
+
+main .icon-locked{
+    height: 2.5em;
+    border-right: 0.1em solid grey;
+    padding: 1.5em 2em;
+}
+
+main .login,.psd{
+    width: 100%;
+    margin: 0 1em;
+    padding: 0;
+    border: 0;
+    outline: none;
+    font-size: 1.5em;
+}
+
+footer .submit{
+    background-color: #68CDD5;
+    width: 100%;
+    height: 3em;
+    border: none;
+    color:white;
+    font-size: 2em;
+}
+
+footer .forget{
+    float: right;
+    font-size: 1.5em;
+    margin: 1em;
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+
